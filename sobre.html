@@ -4,6 +4,9 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap" rel="stylesheet">
         <title>Isabel Allende - Sobre</title>
         <link
             rel="shortcut icon"
@@ -16,6 +19,14 @@
         * {
             padding: 0;
             margin: 0;
+        }
+
+        body {
+            background-color: rgb(213, 205, 195);
+        }
+
+        h1 {
+            font-family: 'Petit Formal Script', cursive;
         }
 
         li {
@@ -39,7 +50,7 @@
         <h1
             style="margin: 20px auto; text-align: center; "
         >
-            ISABEL ALLENDE
+            Isabel Allende
         </h1>
 
         <nav style="margin: 0 auto 20px; ">
@@ -55,44 +66,42 @@
                     
                 "
             >
-                <li><a href="./index.html">INICIO</a></li>
-                <li><a href="./libros.html">LIBROS</a></li>
-                <li style="background-color: antiquewhite">
-                    <a href="./sobre.html">SOBRE</a>
-                </li>
-                <li><a href="./media.html">MEDIA</a></li>
-                <li><a href="https://isabelallende.org/">FUNDACIÓN</a></li>
+            <a href="./index.html"><li>INICIO</li></a>
+            <a href="./libros.html"><li>LIBROS</li></a>
+            <a href="./sobre.html"><li style="background-color: antiquewhite">SOBRE</li></a>
+            <a href="./media.html"><li>MEDIA</li></a>
+            <a href="https://isabelallende.org/"><li>FUNDACIÓN</li></a>
             </ul>
         </nav>
 
         <section style="
-        display: flex;
-        align-items: center;
-        margin: 0 auto 20px;
-        text-align: center;
-        padding: 0 10%;
-        justify-content: space-between;
-        gap: 5%;
-        
-    ">
-            <aside><img src="./img/isabel_lorem.jpg" alt="Isabel Allende"></aside>
-            <article>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat dignissimos omnis excepturi delectus iste. Exercitationem cupiditate non assumenda eos possimus explicabo aliquam repudiandae sit atque illo. Temporibus nam dolorem est.
-            Facilis, numquam, obcaecati ducimus est consequuntur voluptate facere eos quam totam sint officia. Architecto hic animi quas quo, adipisci, vitae totam ipsa iste deleniti asperiores at possimus aut est ipsam.</article>
-        </section>
-
-        <section style="
-        display: flex;
+        display: grid;
         align-items: center;
         margin: 0 auto;
         text-align: center;
         padding: 0 10%;
         justify-content: space-between;
         gap: 5%;
+        grid-template-columns: 1fr 1fr;
         
     ">
-            <article>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat dignissimos omnis excepturi delectus iste. Exercitationem cupiditate non assumenda eos possimus explicabo aliquam repudiandae sit atque illo. Temporibus nam dolorem est.
-                Facilis, numquam, obcaecati ducimus est consequuntur voluptate facere eos quam totam sint officia. Architecto hic animi quas quo, adipisci, vitae totam ipsa iste deleniti asperiores at possimus aut est ipsam.</article>
-            <aside><img src="./img/isabel_lorem.jpg" alt="Isabel Allende"></aside>
+            <aside><img src="./img/isabel_1.jpg" alt="Isabel Allende" style=" width: 100%; margin: 0 auto;"></aside>
+            <article>En 1960 Isabel Allende entró a formar parte de la sección chilena de la FAO, la organización de las Naciones Unidas que se ocupa de la mejora del nivel de vida de la población mediante un exhaustivo aprovechamiento de las posibilidades de cada zona. Dos años después contrajo matrimonio con Miguel Frías, del que habría de divorciarse en 1987, después de haber tenido dos hijos: Paula -que falleció, víctima de porfiria, en 1992- y Nicolás. En 1973, tras el golpe militar chileno encabezado por el general Pinochet, en el que murió su tío, el presidente Salvador Allende, abandonó su país y se instaló en Caracas, donde inició su producción literaria.</article>
+        </section>
+
+        <section style="
+        display: grid;
+        align-items: center;
+        margin: 0 auto;
+        text-align: center;
+        padding: 0 10%;
+        justify-content: space-between;
+        gap: 5%;
+        grid-template-columns: 1fr 1fr;
+        
+    ">
+            <article>La primera gran novela de Isabel Allende, La casa de los espíritus, próxima al llamado «realismo mágico», fue publicada en 1982. Fueron precisamente el ambiente y los sucesos previos que condujeron al golpe militar los materiales narrativos que dieron forma esta obra, con la que se consagró definitivamente como una de las grandes escritoras hispanoamericanas de todos los tiempos.</article>
+            <aside><img src="./img/isabel_2.jpg" alt="Isabel Allende" style=" width: 100%; margin: 0 auto;"></aside>
         </section>
     </body>
 </html>
